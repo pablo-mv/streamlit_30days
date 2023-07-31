@@ -1,3 +1,6 @@
+#Done following the Ken Jee video "Data Science Portfolio Project From Scratch | Building a YouTube Data Dashboard with Streamlit"
+# https://www.youtube.com/watch?v=Yk-unX4KnV4
+
 #Import libs
 import pandas as pd 
 import numpy as np 

@@ -89,7 +89,7 @@ views_cumulative.loc[:,['median_views','80pct_views','20pct_views']] = views_cum
 add_sidebar = st.sidebar.selectbox("Aggregate or Individual Video", ('Aggregate Metrics', 'Individual Video Analysis'))
 
 if add_sidebar == 'Aggregate Metrics':
-    st.write("Agg")
+    st.write("Aggregate Metrics")
     
     df_agg_metrics = df_agg[['Video publish time','Views','Likes','Subscribers','Shares','Comments added','RPM(USD)','Average % viewed',
                              'Avg_duration_sec', 'Engagement_ratio','Views / sub gained']]
